@@ -23,8 +23,12 @@ namespace PixelPerfect2013.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
             return View();
         }
+
+        //public HttpResponse Test()
+        //{
+        //    return View();
+        //}
     }
 }
